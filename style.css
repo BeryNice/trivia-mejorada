@@ -1,0 +1,168 @@
+body{
+	margin: 0 auto;
+	font-family: sans-serif;
+}
+
+
+/* contenedores  */
+
+#envolvente{
+	margin: auto;
+}
+
+#contenedor{
+	visibility: hidden;
+}
+
+
+#bienvenida{
+	box-sizing: border-box;
+	margin: 0 auto;
+	margin-top: 30px;
+	padding: 30px;
+	border-radius: 20px;
+	width: 50%;
+	/*min-height: 300px;
+	height: 200px;*/
+	background: rgba(254, 228, 62);
+	text-align: center;
+	color: black;
+	font-size: 2em;
+	font-stretch: extra-condensed;
+		/*position:absolute;
+	top:30%;
+	left: 25%;
+align-content: center;
+	align-self: center;
+
+	/*background-image: url(https://fondify.mx/proyectos/241/foto/Laboratoria_Isotipo%20CodeAcademy.png);*/
+}
+
+#contenedor{
+	box-sizing: border-box;
+	width: 50%;
+	margin: 0 auto;
+	padding: 30px;
+}
+
+#pregunta1,
+#pregunta2,
+#pregunta3{
+	font-weight: bolder;
+	border-top: 1px dotted #ccc;
+	padding-top: 20px;
+}
+
+#resultados{
+	box-sizing: border-box;
+	display: block;
+	margin: 0 auto;
+}
+
+#bien,
+#mal{
+
+}
+/*/// CLASES titulos  ///*/
+
+
+h1{
+	margin: auto;
+	box-sizing: border-box;
+	align-self: center;
+	width: 100%;
+	padding: 38px 10px;
+	background-image: url(https://i0.wp.com/codigoespagueti.com/wp-content/uploads/2015/08/Laboratoria-4.jpg?fit=980%2C551&quality=100&ssl=1);
+	text-align: center;
+	color: white;
+	font-stretch: extra-condensed;
+	font-size: 4em;
+}
+
+h2{
+	margin-top: 0;
+}
+
+/*/// CLASES INPUTS  ///*/
+
+input#name {
+	font-size: 0.6em;
+}
+
+button{
+	min-width: 100px;
+}
+
+#welcome, button {
+	margin: 0 10px;
+  background: #ff009e;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 30px;
+  color: white;
+  font-size: 16px;
+	border: #ff009e solid 1px;
+}
+
+#welcome:hover, button:hover {
+  background: white;
+	color: black;
+  cursor: pointer;
+	border: #ffe521 solid 1px;
+}
+
+input{
+margin-bottom: 15px;
+}
+
+
+/*/// DESPLIEGUE DE EVALUACION   ///*/
+
+
+#aciertos,
+#errores{
+  display: inline-block;
+  margin-top: 30px;
+  width: 47.7%;
+	padding: 10px;
+	border-top: #ffe521 solid 5px;
+	background: rgba(254, 228, 62, 0.5);
+	font-weight: bold;
+	text-align: center;
+	font-size: 1.3em;
+}
+
+#aciertos,
+#correctos{
+	border-right: #ffe521 solid 1px;
+}
+
+#correctos,
+#incorrectos{
+	display: inline-block;
+	width: 47.7%;
+	padding: 10px;
+	background: rgba(254, 228, 62, 0.3);
+	/*line-height: 20px;*/
+	height: 170px;
+	min-height: 60px;
+	position: relative;
+	vertical-align: top;
+}
+
+#correctos p,
+#incorrectos p{
+	margin-bottom: 0px;
+	margin-left: 20px;
+	/*line-height: 10px;*/
+}
+/*#cuestionario{
+	background-color: red;
+	visibility: hidden;
+}*/
+
+
+.vertical-centered-text {
+		line-height:60px;
+		text-align:center;
+}

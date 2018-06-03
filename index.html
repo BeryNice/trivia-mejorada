@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Trivia Reloaded</title>
+		<!-- VINCULAMOS HOJA DE ESTILOS -->
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<!-- INICIA ENVOLVENTE      -->
+		<div id="envolvente">
+			<h1>Trivia Reloaded</h1>
+			<div id="bienvenida" >
+				<h2 class="vertical-centered-text"> Bienvenid@!!!</h2>
+				 <span> Por favor, introduce tu nombre: <input type="text" id="name" name="nombre" >
+				<input type="button" id="welcome" value="Entrar" onclick="intro()">
+			</span>
+			</div>
+			<div id="contenedor">
+				<div class="question">
+					<p id="pregunta1">¿De qué Generación de Laboratoria formas parte?</p>
+					<input type="radio" id="answer1">4ta Generación <br>
+					<input type="radio" id="answer2">5ta Generación <br>
+					<input type="radio" id="answer3">6ta Generación <br>
+
+					<p id="pregunta2">¿Que lenguaje de programación estas aprendiendo en Laboratoria?</p>
+					<input type="radio" id="answer4">Java <br>
+					<input type="radio" id="answer5">JavaScript <br>
+					<input type="radio" id="answer6">C++<br>
+
+					<p id="pregunta3">¿Cuántas semanas tomará el Commmon Core en Laboratoria?</p>
+					<input type="radio" id="answer7">5 Semanas <br>
+					<input type="radio" id="answer8">10 Semanas <br>
+					<input type="radio" id="answer9">14 Semanas<br>
+
+					<button type="button" name="answer" id="respuestas" onclick="comprobar()" >Enviar</button>
+				</div>
+		 	<div id="resultados">
+				<div id="bien"></div>
+				<div id="mal"></div>
+		 	</div>
+		</div>
+		<!-- TERMINA  ENVOLVENTE -->
+
+<!-- VINCULAMOS SCRIPT      -->
+<script src="app.js"></script>
+	</body>
+</html>
